@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nfi8spB2+Uk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Techp\\Documents\\GitHub\\smart-order-processing-system\\backend\\Sops.API\\Sops.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Techp\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.1\\microsoft.aspnetcore.openapi.9.0.1.nupkg.sha512",
+    "C:\\Users\\Techp\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
