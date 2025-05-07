@@ -87,6 +87,24 @@ Customers place orders via a public API. These orders are:
 - Use of Redis, Cosmos DB, Blob Storage
 - Monitoring, logging, and automation with Event Grid
 
+## Cost Control
+
+| **Service**             | **Free/Cheap Option**                                   |
+| ----------------------- | ------------------------------------------------------- |
+| **Resource Group**      | Free                                                    |
+| **Storage (Blob)**      | Use **Standard LRS**, Hot access tier                   |
+| **Cosmos DB**           | Use **Free Tier (5 GB, 400 RU/s)**                      |
+| **App Service**         | Use **F1 (Free) plan** for dev                          |
+| **Container Instances** | Minimal vCPU/memory; stop when not in use               |
+| **Functions**           | First 1 million executions/month are **free**           |
+| **Event Hub**           | **Basic tier** with minimal throughput units            |
+| **Service Bus**         | **Basic tier**, lowest pricing tier                     |
+| **Queue Storage**       | Built into Storage Account (very cheap)                 |
+| **API Management**      | Use **Consumption Tier** (lowest cost)                  |
+| **Redis Cache**         | **Basic C0** (250MB, low throughput, or remove for dev) |
+| **Key Vault**           | Charges per secret access — use sparsely in dev         |
+| **Entra ID**            | Free tier covers basic RBAC and app registration        |
+
 ---
 
 > 💡 **Next step:** Break this project into smaller modules for hands-on learning (e.g., start with App Service + Event Hub integration).
